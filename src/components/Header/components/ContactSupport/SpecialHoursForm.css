@@ -1,0 +1,80 @@
+.special-hours-form {
+  padding: 1.5rem;
+  background-color: #F4FBFD;
+}
+
+.form-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1.5rem;
+}
+
+.form-header h3 {
+  color: #012641;
+  font-size: 1.2rem;
+}
+
+.close-btn {
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+  padding: 0.5rem;
+  color: #012641;
+}
+
+.form-group {
+  margin-bottom: 1rem;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+  color: #012641;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid #60B3D1;
+  border-radius: 4px;
+  background-color: white;
+  color: #012641;
+}
+
+.form-group input:focus {
+  outline: none;
+  border-color: #012641;
+  box-shadow: 0 0 0 2px rgba(1, 38, 65, 0.1);
+}
+
+.form-actions {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+
+.form-actions button {
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.form-actions button[type="submit"] {
+  background: linear-gradient(90deg, #012641 0%, #60B3D1 200%);
+  color: #F4FBFD;
+}
+
+.form-actions button[type="button"] {
+  background-color: #F4FBFD;
+  border: 1px solid #60B3D1;
+  color: #012641;
+}
+
+.form-actions button:hover {
+  opacity: 0.9;
+} 

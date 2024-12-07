@@ -1,0 +1,17 @@
+.contact-support {
+  position: relative;
+}
+
+.support-btn {
+  padding: 0.5rem 1rem;
+  background: linear-gradient(90deg, #012641 0%, #60B3D1 200%);
+  color: #F4FBFD;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.support-btn:hover {
+  background: linear-gradient(90deg, #60B3D1 0%, #012641 200%);
+} 

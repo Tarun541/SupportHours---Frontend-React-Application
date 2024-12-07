@@ -1,0 +1,93 @@
+.special-hours-list {
+  padding: 1.5rem;
+  background-color: #F4FBFD;
+}
+
+.list-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1.5rem;
+}
+
+.list-header h3 {
+  color: #012641;
+  font-size: 1.2rem;
+  margin: 0;
+}
+
+.close-btn {
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+  padding: 0.5rem;
+  color: #012641;
+}
+
+.special-hours-item {
+  padding: 1rem;
+  border: 1px solid #60B3D1;
+  border-radius: 4px;
+  margin-bottom: 1rem;
+  background-color: white;
+}
+
+.special-hours-item:last-child {
+  margin-bottom: 0;
+}
+
+.dates-column {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  margin-bottom: 0.75rem;
+}
+
+.date-group {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.date-label {
+  font-weight: 600;
+  color: #012641;
+  font-size: 0.9rem;
+  min-width: 85px;
+}
+
+.date-value {
+  color: #012641;
+  font-size: 0.9rem;
+}
+
+.timing-row {
+  display: flex;
+  gap: 0.5rem;
+  margin-top: 0.75rem;
+  padding-top: 0.75rem;
+  border-top: 1px dashed #60B3D1;
+}
+
+.timing-group {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  white-space: nowrap;
+}
+
+.timing-label {
+  font-weight: 600;
+  color: #012641;
+  font-size: 0.9rem;
+  min-width: 70px;
+}
+
+.timing-value {
+  color: #60B3D1;
+  font-size: 0.85rem;
+  font-weight: 500;
+  white-space: nowrap;
+  letter-spacing: -0.2px;
+} 

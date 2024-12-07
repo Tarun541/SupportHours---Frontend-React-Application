@@ -1,0 +1,6 @@
+.App {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(135deg, #012641 0%, #012641 60%, #60B3D1 140%);
+}

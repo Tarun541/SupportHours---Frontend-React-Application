@@ -1,0 +1,143 @@
+.support-modal {
+  position: absolute;
+  top: calc(100% + 10px);
+  right: 0;
+  width: 300px;
+  background-color: #F4FBFD;
+  border-radius: 4px;
+  box-shadow: 0 2px 10px rgba(1, 38, 65, 0.15);
+  z-index: 1000;
+}
+
+.modal-content {
+  padding: 1.5rem;
+}
+
+.welcome-section,
+.contact-details,
+.support-hours {
+  margin-bottom: 1.5rem;
+  padding-bottom: 1.5rem;
+  border-bottom: 1px solid #eee;
+}
+
+.contact-item,
+.hours-item {
+  display: flex;
+  align-items: center;
+  margin: 0.5rem 0;
+}
+
+.contact-item svg {
+  margin-right: 1rem;
+  color: #60B3D1;
+}
+
+.hours-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0.5rem 0;
+  padding: 0.25rem 0;
+}
+
+.hours-item .days {
+  min-width: 100px;
+  font-weight: 600;
+  font-size: 0.95rem;
+  color: #012641;
+}
+
+.hours-item .time {
+  text-align: right;
+  color: #012641;
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+.support-hours {
+  border-bottom: none;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.special-hours-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  margin-top: 1rem;
+}
+
+.special-hours-buttons button {
+  width: 100%;
+  padding: 0.5rem 1rem;
+  background: linear-gradient(90deg, #012641 0%, #60B3D1 200%);
+  color: #F4FBFD;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 0.9rem;
+}
+
+.special-hours-buttons button:hover {
+  background: linear-gradient(90deg, #60B3D1 0%, #012641 200%);
+}
+
+.hours-item.special {
+  margin-bottom: 0.75rem;
+  padding-bottom: 0.75rem;
+  border-bottom: 1px dashed #ddd;
+}
+
+.hours-item.special .days {
+  color: #60B3D1;
+  font-weight: 600;
+}
+
+.hours-item.special .time {
+  color: #60B3D1;
+}
+
+.hours-item.regular {
+  margin-top: 0.25rem;
+}
+
+.welcome-section {
+  /* remove text-align: center */
+}
+
+.welcome-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+.person-image {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-bottom: 5px;
+}
+
+.person-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.welcome-message {
+  line-height: 1.5;
+  color: #012641;
+  text-align: left;
+}
+
+.contact-details h3,
+.support-hours h3 {
+  text-align: center;
+  margin-bottom: 1rem;
+  color: #012641;
+}
+ 
